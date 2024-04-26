@@ -62,4 +62,28 @@ public sealed class UniverseTests
         };
         universe.State.Should().BeEquivalentTo(nextGeneration);
     }
+
+    [Test]
+    public void NextGenerationACellWithLessThanTwoLiveNeighboursDies()
+    {
+        bool[,] seed =
+        {
+            { true, true, false, false },
+            { false, false, false, false },
+            { false, false, false, false },
+            { false, false, false, false }
+        };
+        var universe = new Universe(seed);
+
+        universe.NextGen();
+
+        bool[,] nextGeneration =
+        {
+            { false, false, false, false },
+            { false, false, false, false },
+            { false, false, false, false },
+            { false, false, false, false }
+        };
+        universe.State.Should().BeEquivalentTo(nextGeneration);
+    }
 }
