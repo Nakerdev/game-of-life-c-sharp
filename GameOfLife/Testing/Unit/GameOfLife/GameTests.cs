@@ -7,9 +7,19 @@ namespace GameOfLife.Testing.Unit
     public sealed class GameTests
     {
         [Test]
-        public void TrueShouldBeTrue() 
+        public void ShouldCreatesUniverseWithInitialState() 
         {
-            true.Should().BeTrue();
+            bool[,] seed = 
+            { 
+                { false, false, false, false },
+                { false, false, false, false }, 
+                { false, false, false, false },
+                { false, false, false, false } 
+            };
+
+            var universe = new Universe(seed);
+
+            universe.State.Should().Be(seed);
         }
     }
 }
