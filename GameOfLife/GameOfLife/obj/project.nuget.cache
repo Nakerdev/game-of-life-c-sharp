@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Tv0Po7HUX46WVWJiPMh9VcOn0jPYwCV1WUZQQDdn2z285tKsc/JUK1icidmoi/qNbvJkI3Yr3dm2epsQd58uqg==",
+  "dgSpecHash": "+WjUAQ3X552saQ1NFgmTk4V9ydQp8Nvfu4SjPj+R9f8JRmN7G3y81/lJXrHF0sFgVcOhO+Q9RbGFdKV51DrVRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\anton\\Documents\\workspaces\\game-of-life-pair-programming\\GameOfLife\\GameOfLife\\GameOfLife.csproj",
+  "projectFilePath": "/Users/miguelangelperezgarcia/_dev/leanmind/formaciones/game-of-life-c-sharp/GameOfLife/GameOfLife/GameOfLife.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\anton\\.nuget\\packages\\fluentassertions\\6.12.0\\fluentassertions.6.12.0.nupkg.sha512",
-    "C:\\Users\\anton\\.nuget\\packages\\nunit\\4.1.0\\nunit.4.1.0.nupkg.sha512",
-    "C:\\Users\\anton\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
-    "C:\\Users\\anton\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.0\\system.configuration.configurationmanager.4.4.0.nupkg.sha512",
-    "C:\\Users\\anton\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.4.0\\system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
+    "/Users/miguelangelperezgarcia/.nuget/packages/fluentassertions/6.12.0/fluentassertions.6.12.0.nupkg.sha512",
+    "/Users/miguelangelperezgarcia/.nuget/packages/nunit/4.1.0/nunit.4.1.0.nupkg.sha512",
+    "/Users/miguelangelperezgarcia/.nuget/packages/nunit3testadapter/4.5.0/nunit3testadapter.4.5.0.nupkg.sha512",
+    "/Users/miguelangelperezgarcia/.nuget/packages/system.configuration.configurationmanager/4.4.0/system.configuration.configurationmanager.4.4.0.nupkg.sha512",
+    "/Users/miguelangelperezgarcia/.nuget/packages/system.security.cryptography.protecteddata/4.4.0/system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
   ],
   "logs": []
 }

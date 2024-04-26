@@ -1,12 +1,23 @@
-﻿namespace GameOfLife.Testing.Unit
-{
-    public sealed class Universe
-    {
-        public bool[,] State { get; }
+﻿namespace GameOfLife;
 
-        public Universe(bool[,] seed)
+public sealed class Universe
+{
+    public bool[,] State { get; private set; }
+
+    public Universe(bool[,] seed)
+    {
+        State = seed;
+    }
+
+    public void NextGen()
+    {
+        bool[,] nextGeneration =
         {
-            State = seed;
-        }
+            { false, false, false, false },
+            { false, false, false, false },
+            { false, false, false, false },
+            { false, false, false, false }
+        };
+        State = nextGeneration;
     }
 }
